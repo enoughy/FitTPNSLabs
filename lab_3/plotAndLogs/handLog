@@ -1,0 +1,56 @@
+===== RNN =====
+Epoch 001/15 | loss=0.172456 | val_RMSE=11.664614
+Epoch 002/15 | loss=0.154808 | val_RMSE=12.687020
+Epoch 003/15 | loss=0.150996 | val_RMSE=11.477047
+Epoch 004/15 | loss=0.147109 | val_RMSE=11.357417
+Epoch 005/15 | loss=0.144396 | val_RMSE=11.285402
+Epoch 006/15 | loss=0.141859 | val_RMSE=11.174427
+Epoch 007/15 | loss=0.139758 | val_RMSE=11.158271
+Epoch 008/15 | loss=0.137570 | val_RMSE=11.396139
+Epoch 009/15 | loss=0.135374 | val_RMSE=11.265604
+Epoch 010/15 | loss=0.133967 | val_RMSE=11.154956
+Epoch 011/15 | loss=0.132628 | val_RMSE=11.822754
+Epoch 012/15 | loss=0.131270 | val_RMSE=11.208977
+Epoch 013/15 | loss=0.129505 | val_RMSE=10.988576
+Epoch 014/15 | loss=0.128110 | val_RMSE=10.877940
+Epoch 015/15 | loss=0.126781 | val_RMSE=10.842223
+Test | RMSE=10.228089 | MAE=5.543645 | R2=0.892413
+===== GRU =====
+Epoch 001/15 | loss=0.205830 | val_RMSE=12.234322
+Epoch 002/15 | loss=0.162136 | val_RMSE=12.629741
+Epoch 003/15 | loss=0.154906 | val_RMSE=11.676393
+Epoch 004/15 | loss=0.149909 | val_RMSE=11.512634
+Epoch 005/15 | loss=0.146547 | val_RMSE=11.388722
+Epoch 006/15 | loss=0.143955 | val_RMSE=11.218813
+Epoch 007/15 | loss=0.142198 | val_RMSE=11.276133
+Epoch 008/15 | loss=0.140682 | val_RMSE=11.238759
+Epoch 009/15 | loss=0.138890 | val_RMSE=11.267957
+Epoch 010/15 | loss=0.137749 | val_RMSE=11.117467
+Epoch 011/15 | loss=0.136771 | val_RMSE=11.545548
+Epoch 012/15 | loss=0.135709 | val_RMSE=11.245674
+Epoch 013/15 | loss=0.134323 | val_RMSE=11.003821
+Epoch 014/15 | loss=0.133526 | val_RMSE=10.964503
+Epoch 015/15 | loss=0.132836 | val_RMSE=10.924518
+Test | RMSE=10.379159 | MAE=5.806107 | R2=0.889211
+===== LSTM =====
+Epoch 001/15 | loss=0.243603 | val_RMSE=12.842792
+Epoch 002/15 | loss=0.170219 | val_RMSE=12.411000
+Epoch 003/15 | loss=0.158056 | val_RMSE=11.772088
+Epoch 004/15 | loss=0.151848 | val_RMSE=11.650324
+Epoch 005/15 | loss=0.147664 | val_RMSE=11.446053
+Epoch 006/15 | loss=0.144384 | val_RMSE=11.325147
+Epoch 007/15 | loss=0.142106 | val_RMSE=11.414702
+Epoch 008/15 | loss=0.140401 | val_RMSE=11.198720
+Epoch 009/15 | loss=0.138586 | val_RMSE=11.408199
+Epoch 010/15 | loss=0.137558 | val_RMSE=11.212027
+Epoch 011/15 | loss=0.136743 | val_RMSE=11.243279
+Epoch 012/15 | loss=0.135786 | val_RMSE=11.137616
+Epoch 013/15 | loss=0.134780 | val_RMSE=11.043182
+Epoch 014/15 | loss=0.133995 | val_RMSE=11.014480
+Epoch 015/15 | loss=0.133320 | val_RMSE=10.941353
+Test | RMSE=10.500383 | MAE=5.873625 | R2=0.886608
+[COMPARISON]
+model      rmse      mae       r2
+  RNN 10.228089 5.543645 0.892413
+  GRU 10.379159 5.806107 0.889211
+ LSTM 10.500383 5.873625 0.886608

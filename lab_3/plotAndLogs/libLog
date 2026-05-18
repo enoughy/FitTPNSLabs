@@ -1,0 +1,23 @@
+Обработка RNN...
+Epoch [1/5] | Loss: 0.011322
+Epoch [2/5] | Loss: 0.008396
+Epoch [3/5] | Loss: 0.007400
+Epoch [4/5] | Loss: 0.007024
+Epoch [5/5] | Loss: 0.006681
+Обработка LSTM...
+Epoch [1/5] | Loss: 0.015097
+Epoch [2/5] | Loss: 0.007372
+Epoch [3/5] | Loss: 0.006634
+Epoch [4/5] | Loss: 0.005979
+Epoch [5/5] | Loss: 0.005606
+Обработка GRU...
+Epoch [1/5] | Loss: 0.012121
+Epoch [2/5] | Loss: 0.007557
+Epoch [3/5] | Loss: 0.006581
+Epoch [4/5] | Loss: 0.006073
+Epoch [5/5] | Loss: 0.005672
+
+Сравнение результатов:
+RNN: MSE=121.3134, RMSE=11.0142, R2=0.8768
+LSTM: MSE=98.6713, RMSE=9.9333, R2=0.8998
+
